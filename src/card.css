@@ -1,0 +1,42 @@
+.fullcard{
+    margin:auto;
+    margin-top:50px;
+    width: fit-content;
+    display: flex;
+    box-shadow: 0 0 20px #ccc;
+    border-radius: 20px;
+}
+.card-image
+{
+    margin:35px;
+    
+}
+.card-image img{
+    border-radius: 999px;
+    
+}
+.card-desc{
+    text-align: left;
+    margin-bottom: 40px;
+}
+.underline{
+    text-decoration: underline;
+}
+.bold{
+    font-weight: bolder;
+}
+.para{
+    color: grey;
+}
+h1{
+    font-size:50px;
+    margin-right: 40px;
+    line-height: 20px;
+    text-decoration: underline;
+}
+@media screen and (max-width:800px){
+    h1{
+        width:100%;
+        line-height: 50px;
+    }
+}

@@ -1,0 +1,23 @@
+.full{
+   
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4,minmax(0,1fr));
+    
+  
+}
+.cards{
+    text-align: left;
+    margin:20px;
+    border-radius: 20px;
+    padding:10px;
+    box-shadow: 0 0 20px #ccc;
+    
+   
+}
+
+@media screen and (max-width:800px){
+    .full{
+        grid-template-columns: repeat(2,minmax(0,1fr));
+    }
+}
